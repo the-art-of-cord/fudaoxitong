@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <include layout="@layout/title"/>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/jigou"
+            android:layout_width="50dp"
+            android:layout_height="150dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="机构"
+            android:textSize="27sp" />
+
+        <Button
+            android:id="@+id/fenxi"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="49dp"
+            android:text="分析"
+            android:textSize="18sp"
+            android:layout_marginStart="49dp"
+            android:layout_alignTop="@+id/tulunjigou"
+            android:layout_toRightOf="@+id/jigou"
+            android:layout_toEndOf="@+id/jigou"/>
+
+        <Button
+            android:id="@+id/fenlei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分类"
+            android:textSize="18sp"
+            android:layout_above="@+id/jigou"
+            android:layout_alignLeft="@+id/fenxi"
+            android:layout_alignStart="@+id/fenxi"/>
+        <Button
+            android:id="@+id/jigoufenxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结构分析"
+
+
+            android:textSize="15sp"
+            android:layout_above="@+id/fenlei"
+            android:layout_alignLeft="@+id/yundongfenxi"
+            android:layout_alignStart="@+id/yundongfenxi"/>
+
+        <Button
+            android:id="@+id/yundongfenxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="运动分析"
+
+            android:textSize="15sp"
+            android:layout_below="@+id/jigoufenxi"
+            android:layout_alignLeft="@+id/lianganjigou"
+            android:layout_alignStart="@+id/lianganjigou"/>
+
+        <Button
+            android:id="@+id/lifenxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="力分析"
+            android:textSize="13sp"
+            android:layout_below="@+id/fenlei"
+            android:layout_alignLeft="@+id/yundongfenxi"
+            android:layout_alignStart="@+id/yundongfenxi"/>
+
+        <Button
+            android:id="@+id/lianganjigou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="连杆机构"
+
+            android:textSize="13sp"
+            android:layout_above="@+id/fenxi"
+            android:layout_alignLeft="@+id/tulunjigou"
+            android:layout_alignStart="@+id/tulunjigou"/>
+
+        <Button
+            android:id="@+id/tulunjigou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="凸轮机构"
+
+            android:textSize="13sp"
+            android:layout_below="@+id/jigou"
+            android:layout_alignLeft="@+id/chilunjigou"
+            android:layout_alignStart="@+id/chilunjigou"/>
+
+        <Button
+            android:id="@+id/chilunjigou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="齿轮机构"
+            android:textSize="13sp"
+            android:layout_below="@+id/tulunjigou"
+            android:layout_alignLeft="@+id/chilunxi"
+            android:layout_alignStart="@+id/chilunxi"/>
+
+        <Button
+            android:id="@+id/chilunxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+
+            android:text="齿轮系"
+            android:textSize="13sp"
+            android:layout_marginStart="40dp"
+            android:layout_below="@+id/chilunjigou"
+            android:layout_toRightOf="@+id/fenxi"
+            android:layout_toEndOf="@+id/fenxi"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

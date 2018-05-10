@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+<include layout="@layout/title"/>
+
+
+
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginTop="40dp"
+android:layout_marginBottom="40dp"
+    >
+
+<Button
+    android:id="@+id/jixieyuanli"
+    android:layout_width="50dp"
+    android:layout_height="150dp"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="5dp"
+    android:text="机械原理"
+    android:textSize="27sp" />
+
+<Button
+    android:id="@+id/xulun"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:text="绪论"
+    android:textSize="18sp"
+    android:layout_above="@+id/jixieyuanli"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="22dp"/>
+
+<Button
+    android:id="@+id/jigou"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:text="机构"
+    android:textSize="18sp"
+    android:layout_centerVertical="true"
+    android:layout_alignLeft="@+id/xulun"
+    android:layout_alignStart="@+id/xulun"/>
+<Button
+    android:id="@+id/jixie"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="35dp"
+    android:text="机械"
+    android:textSize="18sp"
+    android:layout_below="@+id/jixieyuanli"
+    android:layout_alignLeft="@+id/jigou"
+    android:layout_alignStart="@+id/jigou"/>
+</RelativeLayout>
+
+</RelativeLayout>
