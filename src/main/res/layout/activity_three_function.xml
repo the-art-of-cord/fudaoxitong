@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <include layout="@layout/title"/>
+             <Button
+                 android:id="@+id/zhishidian"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+
+                 android:text="知识点"
+                 android:layout_marginBottom="82dp"
+                 android:layout_above="@+id/questions"
+                 android:layout_alignLeft="@+id/questions"
+                 android:layout_alignStart="@+id/questions"/>
+            <Button
+                android:id="@+id/questions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="习题练习"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/dongtu"
+                android:layout_alignStart="@+id/dongtu"/>
+            <Button
+                android:id="@+id/dongtu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="动图"
+                android:layout_below="@+id/questions"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="73dp"/>
+
+
+
+
+    </RelativeLayout>

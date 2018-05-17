@@ -27,6 +27,20 @@
         </activity>
         <activity android:name=".jixie">
         </activity>
+        <activity android:name=".Three_function">
+        </activity>
+        <activity android:name="com.example.ma.questions.question">
+        </activity>
+        <activity android:name="com.example.ma.questions.questionActivity">
+        </activity>
+        <activity android:name="com.example.ma.questions.ExamActivity">
+        </activity>
+        <activity android:name="com.example.ma.zhishidian.GearKnowledge">
+        </activity>
+        <activity android:name="com.example.ma.dongtu.Chilun">
+        </activity>
+        <activity android:name="com.example.ma.dongtu.GearActivity">
+        </activity>
     </application>
 
 </manifest>
