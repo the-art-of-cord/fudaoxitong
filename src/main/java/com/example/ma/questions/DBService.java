@@ -15,7 +15,7 @@ public class DBService {
     private SQLiteDatabase db;
     //在构造函数中打开指定数据库，并把它的引用指向db
     public DBService(){
-        db=SQLiteDatabase.openDatabase("/data/data/com.example.ma.question/databases/question.db" +
+        db=SQLiteDatabase.openDatabase("/data/data/com.example.ma.fudaoxitong/databases/question.db" +
                 "",null,SQLiteDatabase.OPEN_READWRITE);
     }
     //获取数据库中的问题

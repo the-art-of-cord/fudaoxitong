@@ -41,7 +41,7 @@ private Button jigou;
         });
 
 
-        String DB_PATH = "/data/data/com.example.ma.question/databases/";
+        String DB_PATH = "/data/data/com.example.ma.fudaoxitong/databases/";
         String DB_NAME = "question.db";
         //应用启动时，判断数据库是否存在，不存在则将提前打包好的数据库文件复制到数据库目录下
         //数据库目录不存在时，创建数据库目录
